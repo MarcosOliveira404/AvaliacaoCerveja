@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 80%;
+}
+
+h1 {
+    font-size: clamp(2rem, 5vw, 4rem);
+    color: #dfd32a;
+}
+
+p {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    color: #555;
+    margin-top: 10px;
+}
